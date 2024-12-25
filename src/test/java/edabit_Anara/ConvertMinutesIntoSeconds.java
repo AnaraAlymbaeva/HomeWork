@@ -12,6 +12,7 @@ public class ConvertMinutesIntoSeconds {
 
     @Test
     void testConvert(){
+        ConvertMinutesIntoSeconds convertMinutesIntoSeconds = new ConvertMinutesIntoSeconds();
         Assert.assertEquals(convert(5), 300);
         Assert.assertEquals(convert(3), 180);
         Assert.assertEquals(convert(2), 120);
