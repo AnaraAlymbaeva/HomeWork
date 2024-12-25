@@ -12,5 +12,4 @@ public class Exercise1 {
            }
         }return a;
     }
-
 }
