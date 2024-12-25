@@ -1,6 +1,7 @@
 package my_tests;
 
 import edabit_D.Exercise1;
+import edabit_D.Exercise2;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -10,5 +11,9 @@ public class Tests {
     public void test1 (){
         Exercise1 ex = new Exercise1();
         Assert.assertEquals(ex.squarePatch(3), new int[][]{{3, 3, 3}, {3, 3, 3}, {3, 3, 3}});
+    }
+    @Test
+    public void test2(){
+        Assert.assertEquals(Exercise2.arrayOfMultiples(4,3), new int[] {4,8,12});
     }
 }
