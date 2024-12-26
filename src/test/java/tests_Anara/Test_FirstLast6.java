@@ -10,7 +10,6 @@ public class Test_FirstLast6 {
 
     @Test
     public void testFirstLast6(){
-
         int[] nums = {1, 2, 6};
         Assert.assertTrue(firstLast6.firstLast6(nums));
     }
