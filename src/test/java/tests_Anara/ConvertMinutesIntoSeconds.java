@@ -1,4 +1,4 @@
-package edabit_Anara;
+package tests_Anara;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
