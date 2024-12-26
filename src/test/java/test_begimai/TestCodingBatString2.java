@@ -1,3 +1,5 @@
+package test_begimai;
+
 import edabit_begimai.CodingBatString2;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
